@@ -1,0 +1,35 @@
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(84, 46, 208);
+    color: black;
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+    position: relative;
+}
+
+#menu ul li:hover{
+    background-color: rgb(123, 21, 21);
+    color: rgb(255, 0, 0);
+}
+
+#submenu{
+    display: none;  /* hien thi menu con*/
+    position: absolute; /* menu con luon nam trong pham vi menu me*/
+}
+
+#menu ul li:hover>#submenu{ /* di chuot vao menu me de hien thi menu con*/
+    display: block;
+}
+
+#submenu ul li:hover{
+    background-color: rgb(211, 38, 159); 
+    color: rgb(29, 224, 32);
+}
+

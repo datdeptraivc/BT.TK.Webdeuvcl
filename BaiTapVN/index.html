@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thiết Kế Website No.1</title>
+    <style>
+        h1 {
+            background-color: aqua;
+            text-align: right;
+            font-size: 30px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            border: 3px solid rgb(74, 15, 177);
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        h4{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+        .btn {
+            display: i block;
+            text-align: center;
+            background-color: violet;
+            margin-left: 46%;
+            margin-right: 46%;
+            font-size: 25px;
+            transition: .5s ease;
+            box-shadow: 0 0 10px rgb(167, 44, 160);
+            border-radius: 40px;
+            animation: slideTop 1s ease forwards;
+            animation-delay: 2s;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Bài 1.4: Công nghệ thông tin <br> (Information Technology)</h2>
+
+    <h1> Ngành Công Nghệ Thông Tin Là Gì ?</h1>
+
+    <div class="Dv1">
+        <p>
+            <font style="color: brown; font-size: 45px; font-weight: bold;">C</font>
+            ông nghệ thông tin là một thuật ngữ bao gồm phần mềm,
+            mạng lưới Internet, hệ thống máy tính sử dụng cho việc
+
+            <a href="" style="color: black; font-weight: bold;">phân phối và xử lý dữ liệu,
+                trao đổi, lưu trữ và sử dụng thông tin</a>
+
+            dưới hình thức khác nhau .
+        </p>
+    </div>
+
+    <h1> Nghành công nghệ thông tin học những gì ?</h1>
+
+    <div class="Dv2">
+        <p>
+            <font style="color: brown; font-size: 45px; font-weight: bold;">H</font>
+
+            ọc Nghành Công nghệ thông tin, sinh viên được trang bị các kiến thức nền tảng về
+
+            <font style="color: green;"> khoa học tự nhiên </font>
+
+            , kiến thức cơ bản như
+
+            <font style="color: green;"> mạng máy tính, hệ thống thông tin, lập trình,
+                phần mềm... </font>
+
+
+            Đồng thời tùy chương trình đào tạo của từng trường đại học, người học sẽ được
+            chọn các chuyên nghành với năng lực, sở thích như
+
+            <font style="background-color: rgb(21, 227, 21);">"Công nghệ phần mềm"</font>,
+
+            <font style="background-color:rgb(21, 227, 21) ;">"Khoa học máy tính"</font>
+            , Hệ thống thông tin, An toàn thông tin, Mạng máy tính và truyền thông....
+        </p>
+    </div>
+
+    <script type="text/javascript">
+        <!-- Begin
+        function toSpans(span) {
+          var str=span.firstChild.data;
+          var a=str.length;
+          span.removeChild(span.firstChild);
+          for(var i=0; i<a; i++) {
+            var theSpan=document.createElement("SPAN");
+            theSpan.appendChild(document.createTextNode(str.charAt(i)));
+            span.appendChild(theSpan);
+          }
+        }
+    
+        function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+            this.deg=(deg==null?360:Math.abs(deg));
+            this.hue=(hue==null?0:Math.abs(hue)%360);
+            this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+            this.length=span.firstChild.data.length;
+            this.span=span;
+            this.speed=(spd==null?50:Math.abs(spd));
+            this.hInc=this.deg/this.length;
+            this.brt=(brt==null?255:Math.abs(brt)%256);
+            this.timer=null;
+            toSpans(span);
+            this.moveRainbow();
+        }
+        RainbowSpan.prototype.moveRainbow = function() {
+          if(this.hue>359) this.hue-=360;
+          var color;
+          var b=this.brt;
+          var a=this.length;
+          var h=this.hue;
+    
+          for(var i=0; i<a; i++) {
+    
+            if(h>359) h-=360;
+    
+            if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+            else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+            else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+            else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+            else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+            else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+    
+            h+=this.hInc;
+    
+            this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+          }
+          this.hue+=this.hspd;
+        }
+    </script>
+        <h3 id="r1"> Nguyễn Thế Đạt</h3>
+        
+        <script type="text/javascript">
+        var r1=document.getElementById("r1"); //get span to apply rainbow
+        var myRainbowSpan=new RainbowSpan(r1, 0, 360, 255, 50, 18); //apply static rainbow effect
+        myRainbowSpan.timer=window.setInterval("myRainbowSpan.moveRainbow()", myRainbowSpan.speed);
+        </script>
+
+        <!-- <div>
+            <h4> Các Bạn Download Bài Tập Về Nhà Môn Thiết Kế Website Của Cô Vân Xinh Đẹp No.1 Tại Đây : </h4>
+        </div>
+
+<div class="btn">
+    <a href="BTVN - Nguyễn Thế Đạt 10D.CNTT01.rar" download> Download </a>
+</div> -->
+</body>
+
+
+</html>

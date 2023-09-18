@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+.threeimg{
+    width: 50px;
+    height: 50px;
+}
+
+.threeimg .img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 30px;
+}
+
+.doan1 .p{
+    float: left;
+}
+
+
+
+
+
+
